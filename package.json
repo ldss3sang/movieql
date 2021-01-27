@@ -1,0 +1,20 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "Movie API with GraphpL",
+  "main": "index.js",
+  "repository": "https://github.com/ldss3sang/movieql.git",
+  "author": "Sangseok Doe <sangseoksoftware@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {}
+}
